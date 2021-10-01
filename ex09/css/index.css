@@ -53,13 +53,14 @@ a {
   text-decoration: none;
 }
 #showcase {
-  background-image: linear-gradient(
-    to right,
-    rgba(#000, 0.8),
-    rgba(#000, 0.8),
-    url("../ex09/img/gigi-logo.png")
-  );
-  background-size: cover;
+  background-image: url("/ex09/img/gigi-logo.png");
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: grayscale(100%);
+  color: #fff;
+}
+#showcase h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #showcase .container {
   display: flex;
@@ -121,6 +122,6 @@ input {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #ae4b3d;
+  background-color: #ff5111;
   color: #fff;
 }
