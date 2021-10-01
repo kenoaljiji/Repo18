@@ -117,13 +117,16 @@ input {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 55px 0px;
+  padding: 40px 0px;
 }
 #boxes img {
   width: 200px;
   height: auto;
+  margin-bottom: 30px;
 }
-
+#boxes h3 {
+  margin-bottom: 30px;
+}
 footer {
   text-align: center;
   padding: 20px;
